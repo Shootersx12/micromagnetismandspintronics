@@ -2006,15 +2006,12 @@ Esto provoca que las espirales se estiren o se deformen a medida que avanza el t
 </section>
 <section id="conexion-con-la-ecuacion-de-llg">
 <h4>Conexión con la ecuación de LLG:<a class="headerlink" href="#conexion-con-la-ecuacion-de-llg" title="Link to this heading">#</a></h4>
-<p>En el plano (xy), la parte precesional de la ecuación LLG:
-$
-\frac{\partial \mathbf{M}<em>\perp}{\partial t}
-= -\gamma , \mathbf{M} \times \mathbf{H}</em>\text{ef}</p>
-<ul class="simple">
-<li><p>\xi , \mathbf{M} \times \left[ (\mathbf{u} \cdot \nabla) \mathbf{M} \right]
-$
-hace que la magnetización gire alrededor del núcleo, mientras que el término no adiabático ajusta la velocidad de relajación hacia el patrón espiral estable.</p></li>
-</ul>
+<p>En el plano (xy), la parte precesional de la ecuación LLG:</p>
+<div class="math notranslate nohighlight">
+\[\frac{\partial \mathbf{M}_\perp}{\partial t} 
+= -\gamma \, \mathbf{M} \times \mathbf{H}_\text{ef} 
++ \xi \, \mathbf{M} \times \left[ (\mathbf{u} \cdot \nabla) \mathbf{M} \right]\]</div>
+<p>hace que la magnetización gire alrededor del núcleo, mientras que el término no adiabático ajusta la velocidad de relajación hacia el patrón espiral estable.</p>
 </section>
 <section id="conclusion">
 <h4>Conclusión:<a class="headerlink" href="#conclusion" title="Link to this heading">#</a></h4>
@@ -2375,11 +2372,11 @@ En este estado, la magnetización está predominantemente en el plano (XY) y gir
 <ul class="simple">
 <li><p>Introduce un empuje perpendicular que rompe la simetría.</p></li>
 <li><p>Acelera la deformación del patrón y la pérdida del estado de vórtice.</p></li>
-<li><p>Con valores altos ((\xi \approx 0.5)), el patrón desaparece rápidamente, conduciendo a un estado más uniforme.</p></li>
+<li><p>Con valores altos <span class="math notranslate nohighlight">\((\xi \approx 0.5)\)</span>, el patrón desaparece rápidamente, conduciendo a un estado más uniforme.</p></li>
 </ul>
 </li>
 </ol>
-<p>En los primeros instantes ((&lt; 0.4\ \text{ns})) todavía se observa un <strong>semi-equilibrio</strong> azul–rojo, pero este es transitorio y se pierde al aumentar la influencia del torque no adiabático y del damping.</p>
+<p>En los primeros instantes <span class="math notranslate nohighlight">\(&lt; 0.4\ \text{ns}\)</span> todavía se observa un <strong>semi-equilibrio</strong> azul–rojo, pero este es transitorio y se pierde al aumentar la influencia del torque no adiabático y del damping.</p>
 </section>
 <section id="evolucion-general">
 <h3>1. Evolución general<a class="headerlink" href="#evolucion-general" title="Link to this heading">#</a></h3>
@@ -2440,21 +2437,12 @@ La forma y el tamaño del núcleo son similares para todas las (\xi), pero su es
 <section id="interpretacion-fisica">
 <h3>5. Interpretación física<a class="headerlink" href="#interpretacion-fisica" title="Link to this heading">#</a></h3>
 <p>La dinámica está descrita por la ecuación LLG con STT:</p>
-<p>$
-\frac{\partial \mathbf{M}}{\partial t} =</p>
-<ul class="simple">
-<li><p>\gamma , \mathbf{M} \times \mathbf{H}_\text{ef}</p></li>
-</ul>
-<ul class="simple">
-<li><p>\frac{\alpha}{M_s} , \mathbf{M} \times \frac{\partial \mathbf{M}}{\partial t}</p></li>
-</ul>
-<ul class="simple">
-<li><p>(\mathbf{u} \cdot \nabla) \mathbf{M}</p></li>
-</ul>
-<ul class="simple">
-<li><p>\xi , \mathbf{M} \times \left[ (\mathbf{u} \cdot \nabla) \mathbf{M} \right]
-$</p></li>
-</ul>
+<div class="math notranslate nohighlight">
+\[\frac{\partial \mathbf{M}}{\partial t} = 
+- \gamma \, \mathbf{M} \times \mathbf{H}_\text{ef} 
++ \frac{\alpha}{M_s} \, \mathbf{M} \times \frac{\partial \mathbf{M}}{\partial t}
+- (\mathbf{u} \cdot \nabla) \mathbf{M}
++ \xi \, \mathbf{M} \times \left[ (\mathbf{u} \cdot \nabla) \mathbf{M} \right]\]</div>
 <ul class="simple">
 <li><p>El <strong>término adiabático</strong> transporta la textura magnética a lo largo de la dirección de la corriente.</p></li>
 <li><p>El <strong>término no adiabático</strong> ((\xi)) introduce un torque transversal que acelera la relajación.</p></li>
